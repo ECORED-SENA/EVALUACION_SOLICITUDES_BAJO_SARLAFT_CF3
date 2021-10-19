@@ -3,11 +3,8 @@
 span.etiqueta
   font-weight: 800  
 figcaption
-  background-color: #FFFAE8
+  background-color: #E8E8E8
   font-weight: 400
-caption
-  background-color: #FFFAE8 !important
-  font-weight: 400 !important
 .boton.color-acento-botones *, .color-acento-botones.boton--sm *
   color: $color-sistema-texto  
 
@@ -17,6 +14,8 @@ caption
   background-color: #FFFAE8
 .bg-acento-contenido-1
   background-color: #43A047  
+.border-acento-contenido
+  border: 1px solid #43A047  
 .border-bottom-verde
   border-bottom: 7px solid #43A047
 .lista-acento-botones.lista-ul--color li > i:first-of-type
@@ -65,7 +64,31 @@ caption
   padding: 7px 12px
 
 .tarjeta-numerada__numero
-  width: 80px
-  height: 80px
+  width: 75px
+  height: 75px
   top: -25px
   transform: translateX(-55%)
+.tarjeta-numerada.color-acento-contenido .tarjeta-numerada__numero
+  background-color: transparent !important
+
+.tarj-1, .tarj-2
+  height: 110px
+.tarj-1
+  display: flex
+  justify-content: center
+  align-items: center
+.tarj-1 img
+  width: 80px  
+  height: 80px 
+
+
+@media (max-width: $bp-max-md)
+  .tarj-1, .tarj-2
+    height: auto
+  .tarj-1 img
+    padding: 20px 0px
+    width: 150px  
+    height: 150px  
+
+  .slyder-a .horizontal-scroll
+    align-items: flex-start !important

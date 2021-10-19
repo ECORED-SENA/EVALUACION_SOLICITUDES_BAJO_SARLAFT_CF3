@@ -49,7 +49,7 @@
     TabsC.color-acento-botones.mb-5(data-aos="fade-down")
       .py-3.py-md-4(titulo="Características")
         .row.justify-content-center
-          .col-md-5.col-7.mb-4.mb-md-0
+          .col-md-5.col-9.mb-4.mb-md-0
             figure
               img.px-md-2(src='@/assets/curso/tema1-tabs1.jpg', alt='Características')        
           .col-md-5
@@ -69,7 +69,7 @@
                 | Debe ser un empleado directo de la entidad.       
       .py-3.py-md-4(titulo="Funciones")
         .row.justify-content-center
-          .col-md-5.col-7.mb-4.mb-md-0
+          .col-md-5.col-9.mb-4.mb-md-0
             figure
               img.px-md-2(src='@/assets/curso/tema1-tabs2.jpg', alt='Funciones')        
           .col-md-5
@@ -149,7 +149,7 @@
 
     p.mb-4(data-aos="fade") Para explicarlo de una manera más clara, se presenta un ejemplo:
 
-    SlyderA.fondo-componente.py-5.mb-4(data-aos="fade-down")
+    SlyderA.fondo-componente.py-md-5.py-3.px-md-0.px-4.mb-4(data-aos="fade-down")
       .row.justify-content-center
         .col-md-5.mb-4.mb-md-0
           h4 Ejemplo:
@@ -416,26 +416,185 @@
 
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
-        .col-md-6.mb-4.mb-md-0
-          h4 Modal 2
-          p This is another par 
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            img(src='@/assets/curso/tema1-3-modal2.svg', alt='Perfil del sujeto')
+          h4 Georeferenciación espacial y temporal 
+          .row
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  strong ¿Ciudades?  
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Ciudad dónde está ubicada la razón social principal y sucursales.  
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  strong ¿Países? 
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Realiza operaciones en moneda extranjera?  
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Con quién y cómo las canaliza?
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Cuál es el negocio que realiza con moneda extranjera? ¿Qué países intervienen? 
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Está catalogado como paraíso fiscal o está en alguna lista de la OCDE, GAFI, entre otros? 
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  strong ¿Dónde realiza sus operaciones? 
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Dirección y teléfono de residencia y oficina.
+                li.mb-0
+                  i.fas.fa-square
+                  | Número de celular.
+                li.mb-0
+                  i.fas.fa-square
+                  | Correo electrónico.    
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  strong ¿Tiempo?
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Cuál es el periodo de análisis de información de lavado de activos y financiación del terrorismo?
 
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
-        .col-md-6.mb-4.mb-md-0
-          h4 Modal 3
-          p This is another par 
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            img(src='@/assets/curso/tema1-3-modal3.svg', alt='Perfil del sujeto')
+          h4 Perfil económico
+          .row
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  strong ¿Qué hace? 
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Origen de sus recursos. 
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Cuál es la actividad económica que desarrolla?
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  strong ¿Empresas?
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Con cuáles personas jurídicas tiene relaciones y qué tipo de relaciones tiene, así como el período de relación.
+                li.mb-0
+                  i.fas.fa-square
+                  | Las empresas mencionadas, ¿tienen relación entre sí?
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Es una empresa reconocida o no? ¿De reciente creación? 
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  strong ¿Proveedores?
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Quiénes son sus proveedores? Tiempo de experiencia.    
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  strong ¿Otros recursos? 
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Identificar otras fuentes de ingreso. 
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 5
+                  strong ¿Tiene activos, patrimonios o pasivos?  
+
 
     ModalA(:abrir-modal.sync="modal4")
       .row.align-items-center
-        .col-md-6.mb-4.mb-md-0
-          h4 Modal 4
-          p This is another par 
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            img(src='@/assets/curso/tema1-3-modal4.svg', alt='Perfil del sujeto')
+          h4 Perfil financiero
+          .row
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  strong ¿Productos financieros?  
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Tiene acceso al sistema financiero?  
+                li.mb-0
+                  i.fas.fa-square
+                  | Identificar los establecimientos de crédito.
+                li.mb-0
+                  i.fas.fa-square
+                  | Solicitar referencias bancarias, en los casos que sean pertinentes.    
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  strong ¿Manejo de efectivo?
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | ¿Tiene políticas respecto del manejo de efectivo?  
+                li.mb-0
+                  i.fas.fa-square
+                  | Solicitar referencias bancarias en los casos que sean pertinentes. 
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  strong ¿Estados financieros?
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Balance general y del resultado (PYG). 
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  strong ¿Declaración de renta?
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Confrontar la información presentada en los balances.
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico.svg', alt='Texto que describa la imagen')
-      .col-md-7.m-0.p-0.titulo-tercero-2
+      .col-md-7.col-7.m-0.p-0.titulo-tercero-2
         h4.mb-0
           span.mb-0.text-white Formatos
 
@@ -500,7 +659,7 @@
     #t_1_5.titulo-segundo(data-aos="fade-right")
       .h2 1.5  Sanciones
 
-    .row
+    .row.mb-4
       .col-md-6.mb-4(data-aos="fade-right")
         p De acuerdo con las recomendaciones dadas por el GAFI sobre el cumplimiento del SARLAFT 4.0, en el numeral 26: “Regulación y supervisión de las instituciones financieras “, y su numeral 35: “Sanciones”, las instituciones financieras deben estar en la regulación y supervisión adecuada. Debe asegurarse de que existan unas sanciones eficaces, proporcionales y disuasivas, bien sean penales, civiles o administrativas, para las personas naturales o jurídicas que incumplan con los requisitos ALA/CFT. 
         p En los últimos 3 años, se han emitido un aproximado de 31 sanciones, de las cuales, el 58% se efectuaron en el 2018 y, en lo que va del 2020, se han emitido 4 sanciones.  
@@ -512,7 +671,7 @@
     .row.justify-content-center.mb-4
       .col-md-10.bg-secundario-2.border-bottom-verde.py-4(data-aos="fade-down")
         .row.justify-content-center
-          .col-md-2
+          .col-md-2.col-5.mb-4.mb-md-0
             figure
               img.px-md-3(src='@/assets/curso/tema1-5-img2.svg', alt='Revisión y aprobación de información')
           .col-md-8
@@ -540,7 +699,7 @@
     .row.justify-content-center.mb-4
       .col-md-10.tarjeta.bg-secundario-1.py-4
         .row.justify-content-center.align-items-center
-          .col-md-4
+          .col-md-4.mb-3.mb-md-0
             h4 Estas multas se han presentado por diferentes motivos descritos en la siguiente tabla: 
           .col-md-6 
             a.anexo(:href="obtenerLink('/downloads/Anexo_5.Multas.docx')" target="_blank")
