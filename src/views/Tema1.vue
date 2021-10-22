@@ -361,6 +361,9 @@
                 li.mb-0
                   i.fas.fa-square
                   | Correo electrónico. 
+                li.mb-0
+                  i.fas.fa-square
+                  | Sucursales de la razón social.  
               ol.lista-ol--cuadro.mb-0
                 li.mb-2
                   .lista-ol--cuadro__vineta
@@ -430,11 +433,27 @@
               ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
                 li.mb-0
                   i.fas.fa-square
+                  | Ciudad de residencia.  
+                li.mb-0
+                  i.fas.fa-square
                   | Ciudad dónde está ubicada la razón social principal y sucursales.  
               ol.lista-ol--cuadro.mb-0
                 li.mb-2
                   .lista-ol--cuadro__vineta
                     span 2
+                  strong ¿Dónde realiza sus operaciones? 
+              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
+                li.mb-0
+                  i.fas.fa-square
+                  | Si están centralizadas en una sola ciudad. 
+                li.mb-0
+                  i.fas.fa-square
+                  | Si sus operaciones están dispersas en diferentes ciudades.               
+            .col-md-6
+              ol.lista-ol--cuadro.mb-0
+                li.mb-2
+                  .lista-ol--cuadro__vineta
+                    span 3
                   strong ¿Países? 
               ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
                 li.mb-0
@@ -449,22 +468,6 @@
                 li.mb-0
                   i.fas.fa-square
                   | ¿Está catalogado como paraíso fiscal o está en alguna lista de la OCDE, GAFI, entre otros? 
-            .col-md-6
-              ol.lista-ol--cuadro.mb-0
-                li.mb-2
-                  .lista-ol--cuadro__vineta
-                    span 3
-                  strong ¿Dónde realiza sus operaciones? 
-              ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
-                li.mb-0
-                  i.fas.fa-square
-                  | Dirección y teléfono de residencia y oficina.
-                li.mb-0
-                  i.fas.fa-square
-                  | Número de celular.
-                li.mb-0
-                  i.fas.fa-square
-                  | Correo electrónico.    
               ol.lista-ol--cuadro.mb-0
                 li.mb-2
                   .lista-ol--cuadro__vineta
