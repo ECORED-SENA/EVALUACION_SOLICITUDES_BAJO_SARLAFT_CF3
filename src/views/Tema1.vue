@@ -339,7 +339,7 @@
               ul.lista-ul--color.lista-circulo.lista-acento-botones.mb-4.px-2
                 li.mb-0
                   i.fas.fa-square
-                  | Nombres completos y /o razón social.   
+                  | Nombres completos y/o razón social.   
                 li.mb-0
                   i.fas.fa-square
                   | Tipo y número de identificación.  

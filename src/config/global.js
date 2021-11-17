@@ -74,7 +74,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'UIAF',
+            titulo: 'Unidad de Información y Análisis Financiero – UIAF',
             hash: 't_2_2',
           },
         ],
@@ -320,6 +320,11 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varon Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
